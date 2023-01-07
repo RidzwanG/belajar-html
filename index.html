@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Membuat Form</title>
+</head>
+<body>
+    <center>
+        <h2>
+            Form Data diri Ridzwan
+        </h2>
+        <img src="gambar.jpg" alt="gambar" width="20%">
+        <p>Ridzwan Gigih H</p>
+    </center>
+    <fieldset>
+        <legend>Form menggunakan table</legend>
+        <form action="">
+            <table>
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td>
+                        <input type="text" placeholder="Masukkan nama...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="radio" name="jk" id="jk-perempuan">
+                            Laki-Laki
+                        <input type="radio" name="jk" id="jk-perempuan">
+                            Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>:</td>
+                    <td>
+                        <input type="date" name="Tanggal-lahir" id="tanggal-lahir">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobi</td>
+                    <td>:</td>
+                    <td>
+                        <input type="checkbox" name="hobi-user" id="hobi">Mancing
+                        <input type="checkbox" name="hobi-user" id="hobi">Game
+                        <input type="checkbox" name="hobi-user" id="hobi">Membaca
+                    </td>
+                </tr>
+                <tr>
+                    <td>Umur</td>
+                    <td>:</td>
+                    <td>
+                        <select>
+                            <option value="">1-10</option>
+                            <option value="">11-20</option>
+                            <option value="">21-30</option>
+                            <option value="">31-50</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend> Form menggunakan list </legend>
+        <form>
+            <ul>
+                <li>Nama          : 
+                    <input type="text" name="input-nama" id="inputNama">
+                    <br>
+                    <br>
+                </li>
+                <li>Jenis Kelamin : 
+                    <input type="radio" name="jenisKelamin" id="Man">Laki-Laki
+                    <input type="radio" name="jenisKelamin" id="Woman">Perempuan
+                    <br>
+                    <br>
+                </li>
+                <li> 
+                    Tanggal lahir :
+                    <input type="date" name="tanggal-lahir" id="tgl-lahir">
+                    <br>
+                    <br>
+                </li>
+                <li>
+                    Hobi         : 
+                    <input type="checkbox" name="hobi_user" id="Mancing">Mancing
+                    <input type="checkbox" name="hobi_user" id="Game">Game
+                    <input type="checkbox" name="hobi_user" id="Membaca">Membaca
+                    <br>
+                    <br>
+                </li>
+                <li>
+                    Umur :
+                    <select>
+                        <option>1-10</option>
+                        <option>11-20</option>
+                        <option>21-30</option>
+                        <option>31-50</option>
+                    </select>
+                </li>
+            </ul>
+        </form>
+    </fieldset>
+</body>
+</html>
